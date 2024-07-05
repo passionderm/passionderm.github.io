@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
+  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PASSION for Dermatology</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3YJQM6J9DK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.ico">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+    <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+      <a class="navbar-item" href="https://passionderm.github.io">
+      <span class="icon">
+          <i class="fas fa-home"></i>
+      </span>
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          More Research
+        </a>
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="https://robust-tloss.github.io">
+           T-Loss
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">PASSION for Dermatology: Bridging the Diversity Gap with Pigmented Skin Images from Sub-Saharan Africa</h1>
+            <h2 class="title is-2">MICCAI 2024</h2>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              Philippe Gottfrois<sup>1,5</sup>,</span>
+            <span class="author-block">
+              Fabian Gröger<sup>1,2</sup>,</span>
+            <span class="author-block">
+              Herizo Andriambololoniaina<sup>3</sup>,
+            </span>
+            <span class="author-block">
+              Ludovic Amruthalingam<sup>2</sup>,
+            </span>
+            <span class="author-block">
+              Mendrika Rakotoarisaona<sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://alvarogonjim.github.io">Alvaro Gonzalez-Jimenez</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Simone Lionetti<sup>2</sup>
+            </span>
+            <span class="author-block">
+              Wingston Ng'ambi<sup>4</sup>,
+            </span>
+            <span class="author-block">
+              Christophe Hsu<sup>5</sup>
+            </span>
+            <span class="author-block">
+              Agnes Kessy<sup>6</sup>
+            </span>
+            <span class="author-block">
+              <a href="http://marcpouly.com">Marc Pouly</a><sup>2</sup>
+            </span>
+            <span class="author-block">
+              Daudi Mavura<sup>6</sup>
+            </span>
+            <span class="author-block">
+              Dingase Faith Ngongonda<sup>4</sup>
+            </span>
+            <span class="author-block">
+              Ibrahima Traoré<sup>7</sup>
+            </span>
+            <span class="author-block">
+              Rabenja Rapelanoro<sup>6</sup>
+            </span>
+            <span class="author-block">
+              <a href="https://navarinilab.com">Alexander Navarini</a><sup>5</sup>
+            </span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>University of Basel,</span>
+            <span class="author-block"><sup>2</sup>Laboratoire d’Accueil et de Recherche en santé publique spécialisé en TIC,</span>
+            <span class="author-block"><sup>3</sup>Lucerne University of Applied Sciences and Arts,</span>
+            <span class="author-block"><sup>4</sup>Bwaila Hospital Department of Dermatology,</span>
+            <span class="author-block"><sup>5</sup>University Hospital Basel,</span>
+            <span class="author-block"><sup>6</sup>Regional Dermatology Training Center, Moshi,</span>
+            <span class="author-block"><sup>7</sup>Dermatology Clinic Konakry</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            <!-- Code Link. -->
+              <span class="link-block">
+                <a href="#BibTeX"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-obp"></i>
+                  </span>
+                  <span>BibTeX</span>
+                  </a>
+              </span>
+            <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/Digital-Dermatology"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://github.com/google/nerfies/releases/tag/0.1"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-hands">
+          <img poster="" id="steve" src="./static/images/passion1.jpg" height="100%">
+        </div>
+        <div class="item item-passion2">
+            <img poster="" id="passion2" src="./static/images/passion2.jpeg" height="100%">
+        </div>
+        <div class="item item-passion3">
+            <img poster="" id="passion3" src="./static/images/passion3.jpeg" height="100%">
+        </div>
+        <div class="item item-passion4">
+            <img poster="" id="passion4" src="./static/images/passion4.jpg" height="100%">
+        </div>
+        <div class="item item-passion5">
+            <img poster="" id="passion5" src="./static/images/passion5.jpg" height="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Africa faces a huge shortage of dermatologists, with less than one per million people.
+            This is in stark contrast to the high demand for dermatologic care, with 80\% of the paediatric population suffering from largely untreated skin conditions.
+            The integration of AI into healthcare sparks significant hope for treatment accessibility, especially through the development of AI-supported teledermatology.
+          </p>
+          <p>
+            Current AI models are predominantly trained on white-skinned patients and do not generalize well enough to pigmented patients.
+            The PASSION project aims to address this issue by collecting images of skin diseases in Sub-Saharan countries with the aim of open-sourcing this data.
+            This dataset is the first of its kind, consisting of 1,341 patients for a total of 4,243  images.
+            The images are representative of telemedicine settings and encompass the most common paediatric conditions: eczema, dermatophytosis, scabies, and impetigo.
+            We also provide a baseline machine learning model trained on the dataset and a detailed performance analysis for the subpopulations represented in the dataset.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{gottfrois2024PASSION,
+  author    = {Philippe Gottfrois and Fabian Gröger and Herizo Andriambololoniaina and Ludovic Amruthalingam and Mendrika Rakotoarisaona and Alvaro Gonzalez-Jimenez and Simone Lionetti and Wingston Ng'ambiand Christophe Hsu and Agnes Kessy and Marc Pouly and Daudi Mavura and Dingase Faith Ngongonda and Ibrahima Traoré and Rabenja Rapelanoro and Alexander Navarini},
+  title     = {PASSION for Dermatology: Bridging the Diversity Gap with Pigmented Skin Images from Sub-Saharan Africa},
+  journal   = {MICCAI},
+  year      = {2024},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/Digital-Dermatology" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+            href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
