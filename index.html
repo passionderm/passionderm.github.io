@@ -174,7 +174,7 @@
               </span>
             <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/Digital-Dermatology/PASSION_verification_tool"
+                <a href="https://github.com/Digital-Dermatology/PASSION-Evaluation"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -202,77 +202,73 @@
 
 <section class="hero is-light is-small">
   <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-hands">
-          <img poster="" id="steve" src="./static/images/passion1.jpg" height="100%">
-        </div>
-        <div class="item item-passion2">
-            <img poster="" id="passion2" src="./static/images/passion2.jpeg" height="100%">
-        </div>
-        <div class="item item-passion3">
-            <img poster="" id="passion3" src="./static/images/passion3.jpeg" height="100%">
-        </div>
-        <div class="item item-passion4">
-            <img poster="" id="passion4" src="./static/images/passion4.jpg" height="100%">
-        </div>
-        <div class="item item-passion5">
-            <img poster="" id="passion5" src="./static/images/passion5.jpg" height="100%">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Africa faces a huge shortage of dermatologists, with less than
-            one per million people. This is in stark contrast to the high demand for
-            dermatologic care, with 80% of the paediatric population suffering from
-            largely untreated skin conditions. The integration of AI into healthcare
-            sparks significant hope for treatment accessibility, especially through the
-            development of AI-supported teledermatology. Current AI models are
-            predominantly trained on white-skinned patients and do not generalize
-            well enough to pigmented patients. The PASSION project aims to
-            address this issue by collecting images of skin diseases in Sub-Saharan
-            countries with the aim of open-sourcing this data. This dataset is the
-            first of its kind, consisting of 1,653 patients for a total of 4,901 images.
-            The images are representative of telemedicine settings and encompass
-            the most common paediatric conditions: eczema, fungals, scabies, and
-            impetigo. We also provide a baseline machine learning model trained
-            on the dataset and a detailed performance analysis for the subpopulations
-            represented in the dataset. The project website can be found at
-            <a href="https://navarinilab.com">https://passionderm.github.io/</a>.
-          </p>
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Africa faces a huge shortage of dermatologists, with less than
+              one per million people. This is in stark contrast to the high demand for
+              dermatologic care, with 80% of the paediatric population suffering from
+              largely untreated skin conditions. The integration of AI into healthcare
+              sparks significant hope for treatment accessibility, especially through the
+              development of AI-supported teledermatology. Current AI models are
+              predominantly trained on white-skinned patients and do not generalize
+              well enough to pigmented patients. The PASSION project aims to
+              address this issue by collecting images of skin diseases in Sub-Saharan
+              countries with the aim of open-sourcing this data. This dataset is the
+              first of its kind, consisting of 1,653 patients for a total of 4,901 images.
+              The images are representative of telemedicine settings and encompass
+              the most common paediatric conditions: eczema, fungals, scabies, and
+              impetigo. We also provide a baseline machine learning model trained
+              on the dataset and a detailed performance analysis for the subpopulations
+              represented in the dataset. The project website can be found at
+              <a href="https://navarinilab.com">https://passionderm.github.io/</a>.
+            </p>
+          </div>
         </div>
       </div>
+      <!--/ Abstract. -->
     </div>
-    <!--/ Abstract. -->
-  </div>
-</section>
-
-
-<section class="section">
-  <div class="container is-max-desktop">
-
-    <div class="columns is-centered">
-
   </div>
 </section>
 
 <section class="section" id="Dataset">
   <div class="container is-max-desktop content">
-    <h2 class="title">Dataset</h2>
+    <h2 class="title has-text-centered">Dataset</h2> <!-- Center the title -->
+    
+    <!-- Add the legend for the carousel -->
+    <h3 class="has-text-centered is-size-5" style="margin-bottom: 20px;">
+      Sample Images
+    </h3>
+
+    <!-- Carousel Section -->
+    <div id="results-carousel" class="carousel results-carousel" style="margin-bottom: 40px;">
+      <div class="item item-hands">
+        <img id="steve" src="./static/images/passion1.jpg" alt="Image 1" class="carousel-image">
+      </div>
+      <div class="item item-passion2">
+        <img id="passion2" src="./static/images/passion2.jpeg" alt="Image 2" class="carousel-image">
+      </div>
+      <div class="item item-passion3">
+        <img id="passion3" src="./static/images/passion3.jpeg" alt="Image 3" class="carousel-image">
+      </div>
+      <div class="item item-passion4">
+        <img id="passion4" src="./static/images/passion4.jpg" alt="Image 4" class="carousel-image">
+      </div>
+      <div class="item item-passion5">
+        <img id="passion5" src="./static/images/passion5.jpg" alt="Image 5" class="carousel-image">
+      </div>
+    </div>
+
+    <!-- Dataset Usage Agreement -->
     <div class="container">
-      <h1>Dataset Usage Agreement</h3>
-      <p>This dataset is provided under the Creative Commons Attribution-NonCommercial License (CC BY-NC 4.0). By accessing or using this dataset, you agree to the following terms:</p>
+      <h3 class="has-text-centered">Dataset Usage Agreement</h3> <!-- Center the subtitle -->
+      <p class="has-text-centered">
+        This dataset is provided under the Creative Commons Attribution-NonCommercial License (CC BY-NC 4.0). By accessing or using this dataset, you agree to the following terms:
+      </p> <!-- Optional: Center the first paragraph -->
       <ul>
         <li><strong>Non-Commercial Use Only:</strong> You may use the dataset for non-commercial purposes only. Commercial use is strictly prohibited.</li>
         <li><strong>Prohibition on Re-identification:</strong> You must not attempt to re-identify any individuals within the dataset. Any effort to re-identify individuals is strictly prohibited.</li>
@@ -284,9 +280,15 @@
           </ul>
         </li>
       </ul>
-      <p>By using this dataset, you acknowledge that you have read and agree to abide by these terms. Any violation of these terms may result in legal action and the revocation of your right to use the dataset.</p>
-      <p>For more details on the Creative Commons Attribution-NonCommercial License, please visit <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">Creative Commons License Details</a>.</p>
+      <p>
+        By using this dataset, you acknowledge that you have read and agree to abide by these terms. Any violation of these terms may result in legal action and the revocation of your right to use the dataset.
+      </p>
+      <p class="has-text-centered">
+        For more details on the Creative Commons Attribution-NonCommercial License, please visit 
+        <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">Creative Commons License Details</a>.
+      </p>
     </div>
+
     <div class="container has-text-centered" style="margin-top: 20px;">
       <a href="https://docs.google.com/forms/d/1pdIkg-1mrgzEt3XN3YG-NjlXPADXDh-at2KEe5Jlnns/" class="external-link button is-normal is-rounded is-dark">
         <span class="icon">
@@ -298,11 +300,59 @@
   </div>
 </section>
 
+<!-- Carousel CSS Styling -->
+<style>
+  .results-carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 10px 0;
+  }
+  
+  .item {
+    min-width: 300px;
+    max-width: 100%;
+    padding: 10px;
+    scroll-snap-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-image {
+    width: 100%;
+    height: 400px; /* Set a fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio and crop excess */
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .item {
+      min-width: 250px;
+    }
+    
+    .carousel-image {
+      height: 300px; /* Adjust height for smaller screens */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .item {
+      min-width: 200px;
+    }
+    
+    .carousel-image {
+      height: 250px; /* Further adjust height for mobile */
+    }
+  }
+</style>
 
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
-    <h2 class="title">BibTeX</h2>
+    <h2 class="title has-text-centered">BibTeX</h2> <!-- Center the title -->
     <pre><code>@article{gottfrois2024PASSION,
   author    = {Philippe Gottfrois and Fabian Gröger and Herizo Andriambololoniaina and Ludovic Amruthalingam and Mendrika Rakotoarisaona and Alvaro Gonzalez-Jimenez and Simone Lionetti and Wingston Ng'ambiand Christophe Hsu and Agnes Kessy and Marc Pouly and Daudi Mavura and Dingase Faith Ngongonda and Ibrahima Traoré and Rabenja Rapelanoro and Alexander Navarini},
   title     = {PASSION for Dermatology: Bridging the Diversity Gap with Pigmented Skin Images from Sub-Saharan Africa},
@@ -312,7 +362,6 @@
   </div>
 </section>
 
-
 <footer class="footer">
   <div class="container">
     <div class="content has-text-centered">
@@ -320,7 +369,7 @@
          href="">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://github.com/Digital-Dermatology" class="external-link" disabled>
+      <a class="icon-link" href="https://github.com/Digital-Dermatology/PASSION-Evaluation" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>
